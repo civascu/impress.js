@@ -137,21 +137,7 @@
     -->
     <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
 		<q>Business Catalyst Admin UI V4</q>
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
 
-		<br />
-		<br />
-
-		<br />
-		<br />
-		<br />
-		<br />
-
-		<p>Brought to you by: <br/ > <em>IMC / AndreiG / George Stan(2) / Happy Stephen</em></p>
     </div>
 	
 	<div id="ui-evolution" class="step" data-rotate="90" data-scale="2" data-x="0" data-y="-1500">
@@ -175,146 +161,33 @@
 	<div id="what-is-v4" class="step slide" data-rotate="0" data-scale="1" data-x="3000" data-y="-1500">
 		<p>
 			Admin V4 uses: 
-			<ul>
-				<li>A Javascript M-V-C framework (Backbone.js)</li>
-				<li>The liquid templating engine (Liquid.js)</li>
-				<li>Structure (Backbone-Boilerplate)</li>
+			<ol>
+				<li> * A Javascript M-V-C framework (Backbone.js)</li>
+				<li> * The liquid templating engine (Liquid.js)</li>
+				<li> * Structure (Backbone-Boilerplate)</li>
 			</ul>
 		</p>
 	</div>
 
 	<div id="what-we-added" class="step slide" data-x="4500" data-y="-1500">
-		<q>On top we added:</q>
-<br />
+		<q>Layered on top we added:</q>
 		<p>
 		<ul>
-			<li> Data-models that can perform authenticated calls</li>
-			<li> Model relations based on discoverability</li>
-			<li> Automatic rendering to the page </li>
-			<li> Self-contained modules</li>
-			<li> Datasources</li>
-			<li> Model Meta for server-provided validation rules</li>
-			<li> Components</li>
-			<li> CORS support for IE8/9</li>
+			<li>* Data-models that can perform authenticated calls</li>
+			<li>* Model relations based on discoverability</li>
+			<li>* Automatic rendering to the page </li>
+			<li>* Self-contained modules</li>
+			<li>* Datasources</li>
+			<li>* Model Meta for server-provided validation rules</li>
+			<li>* Components</li>
+			<li>* CORS support for IE8/9</li>
 		</ul>
 		<br />
-		<strong>And we're not done!</strong>
+		And we're not done - if we find something that warrants inclusion, we will do it
 	</p>
 	</div>
-
-
-	<div id="find-files" class="step" data-x="1000" data-y="0" data-rotate="90">
-		<q>Where's the source?</q>
-		<p>
-		  Root: <em>trunk/Web/Adminv4</em> <br />
-		  Templates:<em> app/templates</em>
-			<br />
-		  Framework: <em>app/modules/common.js</em>
-		  Admin Modules: <em>app/modules/<strong>[name]</strong></em>
-			<br />
-		</p>
-	</div>
-
-	<div id="what-s-a-module" class="step" data-x="0" data-y="0" data-rotate="90">
-		<q> Modules? </q>
-		<p> A module is just a grouping of all the resources of a particular area / entity that is namespaced and can be referrenced</p>
-		<pre>var myUsersInstance = bc.module("users");</pre>
-	</div>
-
-	<div id="modules-cont" class="step" data-x="-850" data-y="0" data-rotate="90">
-		<q> Modules cont </q>
-		<ul>
-			<li>Can be a single file or a folder</li>
-			<li>For now add script tag manually in html</li>
-		<ul>
-		<strong>Demo & Conventions</strong>
-	</div>
-	
-
-	<div class="step" id="mvc" data-x="4500" data-y="0" data-rotate="90">
-		<h2>Backbone.js</h2>
-		
-		<strong>M</strong>odel (&amp; Collection)
-		<br />
-		<strong>V</strong>iew (&amp; Template)
-		<br />
-		<strong>C</strong>ontroller (ish)
-		<br/><br />framework in JavaScript
-	</div>
-
-	<div id="model" class="step" data-x="4500" data-y="500" data-rotate="0" data-scale="2">
-		<q><center><strong>Model</strong></center></q>
-		<center>
-			<h3>Make REST calls</h3>
-			<h3>Validate</h3>
-			<h3>Fire events</h3>
-		</center>
-	</div>
-
-
-	<div id="collection" class="step" data-x="4500" data-y="1500" data-rotate="0" data-scale="2">
-		<q><center><strong>Collection</strong></center></q>
-		<center>
-			<h3>Make REST calls</h3>
-			<h3>Instantiate Models</h3>
-			<h3>Fire events</h3>
-		</center>
-	</div>
-
-
-
-	<div id="view" class="step" data-x="5500" data-y="500" data-rotate="0" data-scale="2">
-		<q><center><strong>View</strong></center></q>
-		<center>
-			<h3>Powers the display</h3>
-			<h3>Ties into the DOM</h3>
-			<h3>Manage events</h3>
-		</center>
-	</div>
-
-
-
-	<div id="template" class="step" data-x="5500" data-y="1500" data-rotate="0" data-scale="2">
-		<q><center><strong>Template</strong></center></q>
-		<center>
-			<h3>Liquid template</h3>
-			<h3>Uses view.context for data</h3>
-		</center>
-	</div>
-
-
-
-	<div id="router" class="step" data-x="5000" data-y="2500" data-rotate="0" data-scale="2">
-		<q><center><strong>Router/Controller</strong></center></q>
-		<center>
-			<h3>Map url to actions</h3>
-			<h3>Glue code</h3>
-			<h3>Keep lightweight!</h3>
-		</center>
-	</div>
-
-    <div id="demo-3d" class="step" data-x="6300" data-y="3500" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-		<p><span class="have">Demo</span> <span class="you"> time</span></p>
-	</div>
-
-
-	<div id="to_work" class="step" data-x="3500" data-y="0" data-scale="5">
-		<q>Let's start</q>
-	</div>
-	
-	<div id="rules" class="step" data-x="3500" data-y="1000">
-	<ul>
-		<li>Only extend Common.* classes</li>
-		<li>Put all views in [name].Views.[ViewName]</li>
-		<li>Model is: [name].Model</li>
-		<li> You get the point!</li>
-		<li> A view extends Common.Views.Complex</li>
-		<li> To show a view call .render() </li>
-	</ul>
-	</div>
-	
     <!--
-       qui 
+        
         And the last one shows full power and flexibility of impress.js.
         
         You can not only position element in 3D, but also rotate it around any axis.
@@ -324,11 +197,12 @@
         You can of course rotate it around Z axis with `data-rotate-z` - it has exactly the same effect
         as `data-rotate` (these two are basically aliases).
         
+    -->
     <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
         <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
         <span class="footnote">* beat that, prezi ;)</span>
     </div>
--->
+
     <!--
         
         So to make a summary of all the possible attributes used to position presentation steps, we have:
